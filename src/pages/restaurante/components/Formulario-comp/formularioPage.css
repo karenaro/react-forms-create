@@ -1,0 +1,65 @@
+.formulario-page{
+height:100%;
+margin:0;
+padding:0;
+width:100%;
+background-color:black;
+}
+
+.formulario{
+    width: 250px;
+    justify-content: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    }
+
+Button {
+    width: 180px;
+    justify-content: center;
+}
+
+
+
+#input{
+    width: 250px;
+    height: 30px;
+}
+
+.recuadro {
+	border:1px solid black;
+	width:49.5%;
+	display:inline-block;
+	height:49.5%;
+	overflow:hidden;
+}
+#uno{
+	background-color:#14254c;
+    color: white;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+	}
+#dos{
+	background-color:#FF637D;
+	}
+#tres{
+	background-color:#14254c;
+    color: white;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+	}
+#cuatro{
+	background-color:#66D7D1;
+	}
+
+
+
+
+
+
