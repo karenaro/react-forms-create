@@ -1,12 +1,14 @@
 import React from 'react';
 import  FormularioPage from '../Formulario-comp/formularioPage';
 
-function PedidosPage() {
+function PedidosPage(props) {
     return (
         <div className="pedidos-page">
-        <FormularioPage/>
+        <FormularioPage clientesList ={props.clientesList}
+            onAddCliente={props.onAddCliente}
+        />
         </div>
     );
 }
 
-export default PedidosPage;
+export default PedidosPage; 
