@@ -29,6 +29,15 @@ function FormularioPage(props) {
     }
     const nuevoPedido =(event) =>{
       event.preventDefault();
+      const newPedido= {
+        id: name,
+        platillo:platillo,
+        tamaño: tamaño,
+        cantidad:cantidad
+
+      }
+
+      props.onAddPedido(newPedido);
      
       console.log('platillo' + platillo);
       console.log('tamaño' + tamaño);
